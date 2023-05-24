@@ -13,7 +13,7 @@ Planned to be small series of minigames, to try out easy and fun making of mini 
 <h3>--bg_js_jump</h3>
 first test try of js game making <a href="https://en.wikipedia.org/wiki/Dinosaur_Game">"Chrome Dino"</a> remake with Burn Ghost art<br>
 jump to avoid water.
-<br>----bg_js_jump_V0 - first try, simple jump, BUGGY(going to add animation and more gameplay)
+<br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_jump/bg_js_jump_gameV0/bg_js_jump.html">bg_js_jump_V0</a> - first try, simple jump, BUGGY(going to add animation and more gameplay)
 <br><br>
 Tutorials used: <br>
 https://www.youtube.com/watch?v=Av53VJI-UiE
