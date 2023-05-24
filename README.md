@@ -10,7 +10,7 @@ Not going and not trying to do anything disrespectfull or infringing in any way
 <hr>
 Planned to be small series of minigames, to try out easy and fun making of mini games.
 
-<h3>--bg_js_jump</h3>
+<h3>--<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_jump/bg_js_jump_gameV0/bg_js_jump.html">bg_js_jump</a></h3>
 first test try of js game making <a href="https://en.wikipedia.org/wiki/Dinosaur_Game">"Chrome Dino"</a> remake with Burn Ghost art<br>
 jump to avoid water.
 <br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_jump/bg_js_jump_gameV0/bg_js_jump.html">bg_js_jump_V0</a> - first try, simple jump, BUGGY(going to add animation and more gameplay)
