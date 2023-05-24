@@ -17,7 +17,7 @@ jump to avoid water(use keyboard, buttons or click on BurnGhost).
 <br><br>
 Tutorials used: <br>
 https://www.youtube.com/watch?v=Av53VJI-UiE
-<br>Software: 
+<br>Software used: 
 <br>Gimp 2.10 portable
 <br>http://aljacom.com/~gimp/
 <br>AkelaPad 4.9.8
