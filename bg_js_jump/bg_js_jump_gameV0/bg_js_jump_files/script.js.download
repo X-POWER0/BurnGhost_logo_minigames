@@ -22,7 +22,7 @@ document.getElementById('pl').innerHTML = ("PLAYING");
 document.getElementById('hlt').innerHTML = ("Health: " + health);
 document.getElementById('sc').innerHTML = ("Score: " + score);
 if(health > 0 && fount.classList != "fountMov") {fount.classList.add("fountMov")}
-document.addEventListener("keydown", function(event) {
+document.addEventListener("keydown"|| "click", function(event) {
 jump(); });
 function jump () {
 if (burnghost.classList != "jump") {
