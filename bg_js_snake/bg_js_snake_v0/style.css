@@ -15,7 +15,8 @@
     right: 50vw;
     bottom: 50%;
     top: 50%;
-    color: black;
+    color: black;	
+  border-color: red;
 }
 }
 #scoreText{
