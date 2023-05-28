@@ -1,6 +1,6 @@
 # BurnGhost_logo_minigames
 ><p>[[[[<b>!!!wars MUST END!!!</b> - common sense.]]]]</p><br>
-minigames, tests with <a href="https://www.burnghost.com/"  target="_blank">Burn Ghost</a> logo to complement <a href="https://twitter.com/X_POWERll/status/1637542822910873602" target="_blank">thread of twits</a>. <br>
+minigames, tests with <a href="https://www.burnghost.com/"  target="_blank">Burn Ghost</a> logo to complement <a href="https://twitter.com/X_POWERll/status/1637542822910873602">one post</a>(<a href="https://twitter.com/search?q=%40x_powerll%20%40burnghostgames&src=typed_query&f=top" target="_blank">all thread of twits</a>). <br>
 Trying out new cool stuff(that always wanted) encouraged by this COOL logo <br><a href="https://twitter.com/burnghostgames" target="_blank"><img src="https://pbs.twimg.com/profile_images/1608152341852655621/PQO9A4T6_400x400.jpg" width="100px"></a>.<br> 
 Simple basic games one of first gamedev attempts by x-p<br>
 Fun fan tries/creations on theme of https://www.burnghost.com/ platform logo.
