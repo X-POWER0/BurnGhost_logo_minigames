@@ -28,7 +28,7 @@ https://www.youtube.com/watch?v=Av53VJI-UiE
 <br>https://www.google.com/chrome/
 
 <h3>--<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_snake/bg_js_snake_v0/bg_js_snake.html">bg_js_snake</a></h3>
-second test try of js game making <a href="https://en.wikipedia.org/wiki/Dinosaur_Game">"Snake"</a> remake with Burn Ghost art<br>
+second test try of js game making FAMOUS <a href="https://en.wikipedia.org/wiki/Snake_(video_game_genre)">"Snake"</a> remake with Burn Ghost art<br>
 eat (need decide what's it) and avoid hitting walls and self(use keyboard, buttons or click nav buttons).
 <br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_jump/bg_js_jump_gameV0/bg_js_jump.html">bg_js_snake_V0</a> - first try, simple snake, (need to replace food with art)
 <br><br>
