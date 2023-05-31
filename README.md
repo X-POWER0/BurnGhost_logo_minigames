@@ -35,6 +35,14 @@ eat (need decide what's it) and avoid hitting walls and self(use keyboard, butto
 Tutorials used: <br>
 https://www.youtube.com/watch?v=Je0B3nHhKmM
 
+<h3>--<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_match/bg_js_match_v0/bg_js_match.html"  target="_blank">bg_js_match</a></h3>
+second test try of js game making Match remake with Burn Ghost art<br>
+no description work in progress...
+<br>----<a href="ttps://x-power0.github.io/BurnGhost_logo_minigames/bg_js_match/bg_js_match_v0/bg_js_match.html"  target="_blank">bg_js_match_V0</a> - first try, simple match, (need to complete code and add art)
+<br><br>
+Tutorials used: <br>
+https://www.youtube.com/watch?v=bOjgOOmPGTA
+
 <br><br><br>....soon more
 
 !!!EVERYONE reading this HAVE A NEAT TIME SPEND)
