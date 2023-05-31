@@ -1,0 +1,138 @@
+.card {width: 14vw;height: 10vh;content-visibility: hidden;background-color: black;display: table-cell;float:none;border: 4px solid grey;}
+.cardhide {/* filter: brightness(0.0); */width: 14vw;height: 10vh;display: table-cell;background-color: #fd4100;/* float:none; */border: 4px solid orange;color: white;}
+
+button#resetBtn:hover {
+    border: 3px solid #ffa714;
+    background-color: #de0a0a;
+    font-size: 4vw;
+    align-content: center;
+}
+
+button#resetBtn {
+    color: white;
+    background-color: darkred;
+    border: 3px solid brown;
+    width: 20vw;
+    height: 10vh;
+    align-self: center;
+    /* left: 50%; */
+    /* right: 50%; */
+    bottom: 10vh;
+    margin-left: 13vw;
+    margin-right: 10vw;
+    //position: relative;
+position: absolute;
+    font-size: 3vw;
+
+}
+
+a#gitlink {
+    font-size: 5vh;
+    color: lightgray;
+    bottom: 0px;
+    position: absolute;
+}
+
+div.card:hover {
+    border-color: firebrick;
+}
+
+div#gameBoard {
+    background-color: #272525;
+    height: 78vh;
+    width: 44vw;
+    margin-left: 28vw;
+}
+
+div#cards_place {
+    top: 10vh;
+    position: relative;
+}
+
+div#scoreText {
+    color: white;
+    font-size: 8vh;
+    //position: relative;
+position: absolute;
+    bottom: 10vh;
+}
+
+div#BurnGhost {
+    //position: relative;
+position: absolute;
+    width: 9vw;
+    height: 16vh;
+    margin-left: 18vw;
+    margin-right: 48%;
+    top: 63%;
+    background-color: orange;
+}
+
+div#NFT {
+    //position: relative;
+position: absolute;    
+background-color: white;
+    width: 12vw;
+    height: 10vh;
+    top: 1vh;
+    /* bottom: 20vh; */
+    left: 44vw;
+}
+
+
+div#GameStatus {
+    color: #a9a924;
+    font-size: 2vw;
+    align-content: center;
+    margin-left: 0vw;
+position: absolute;
+bottom: 1vh;
+}
+
+div#NFT.fall {
+    color: darkgrey;
+    animation: falldown 1.3s linear;
+}
+
+body {
+    background-color: black;
+}
+
+div#BurnGhost.fly {
+    animation: fly 1s linear;
+}
+
+@keyframes falldown{
+    0%{
+top: -54vh;
+      left: 16vw;
+    }
+    30%{
+top: -44vh;
+left: 8vw;
+    }
+    50%{
+top: -34vh;
+left: 14vw;
+    }
+    80%{
+top: -16vh;
+left: 24vw;
+    }
+    90%{
+     top: -10vh;
+        left: 18vw;
+    }
+    100%{
+     top: -4vh;  
+      left: 16vw;
+    }
+}
+@keyframes fly{
+    0%{
+top: 20%;
+    }
+    100%{
+        top: 0%;
+    }
+}
