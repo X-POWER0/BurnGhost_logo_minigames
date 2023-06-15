@@ -1,5 +1,7 @@
 .card {width: 14vw;height: 10vh;content-visibility: hidden;background-color: black;display: table-cell;float:none;border: 4px solid grey;}
 .cardhide {/* filter: brightness(0.0); */width: 14vw;height: 10vh;display: table-cell;background-color: #fd4100;/* float:none; */border: 4px solid orange;color: white;}
+.cardDisappear{visibility: hidden; width: 14vw;height: 10vh;display: table-cell;background-color: #fd4100;/* float:none; */border: 4px solid orange;color: white; animation: cardDisappearAnim 2s linear;}
+.Number{font-size: 6vh; margin-left: 3vw;}
 
 button#resetBtn:hover {
     border: 3px solid #ffa714;
@@ -135,4 +137,14 @@ top: 20%;
     100%{
         top: 0%;
     }
+}
+
+@keyframes cardDisappearAnim{
+0%{opacity: 1;visibility: visible;width: 14vw;height: 10vh;display: table-cell;background-color: #fd4100;/* float:none; */border: 4px solid orange;color: white;
+}
+20%{opacity: 1;visibility: visible;width: 14vw;height: 10vh;display: table-cell;background-color:#fdb79f;/* float:none; */border: 7px solid red;color: white;
+}
+40%{opacity: 1;visibility: visible;width: 14vw;height: 10vh;display: table-cell;background-color: #fd4100;/* float:none; */border: 4px solid orange;color: white;
+}
+100%{opacity: 0.0;visibility: visible;}
 }
