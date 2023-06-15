@@ -71,6 +71,7 @@ Info used:
 <DT>_<A HREF="https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array">Getting a random value from a JavaScript array - Stack Overflow</A>
 <DT>_<A HREF="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">Array.prototype.splice() - JavaScript | MDN</A>
 <DT>_<A HREF="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice">Array.prototype.slice() - JavaScript | MDN</A>
+<DT>_<A HREF="https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array-in-javascript">How can I remove a specific item from an array in JavaScript? - Stack Overflow</A>
 </details>
 
 <br><br><br>....soon more
