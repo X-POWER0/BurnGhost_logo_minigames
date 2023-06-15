@@ -42,6 +42,36 @@ no description work in progress...
 <br><br>
 Tutorials used: <br>
 https://www.youtube.com/watch?v=bOjgOOmPGTA
+Info used:
+<details>
+<summary>Links to all research materials used in process of creating bg_js_match</summary>
+<DT>_<A HREF="https://stackoverflow.com/questions/4706960/how-to-return-a-variable-from-a-javascript-function-into-html-body">How to return a variable from a javascript function into html body - Stack Overflow</A>
+<DT>_<A HREF="https://stackoverflow.com/questions/4622808/html-changing-colors-of-specific-words-in-a-string-of-text">css - HTML: Changing colors of specific words in a string of text - Stack Overflow</A>
+<DT>_<A HREF="https://www.w3schools.com/cssref/pr_font_font-size.php">CSS font-size property</A>
+<DT>_<A HREF="https://www.w3schools.com/cssref/pr_class_float.php">CSS float property</A>
+<DT>_<A HREF="https://stackoverflow.com/questions/224602/how-do-you-make-div-elements-display-inline">html - How do you make div elements display inline? - Stack Overflow</A>
+<DT>_<A HREF="https://www.google.com/search?q=css+draw+color+on+top+of+image+text&oq=css+draw+color+on+top+of+image+text&aqs=chrome..69i57.27647j0j4&sourceid=chrome&ie=UTF-8">css draw color on top of image text - Google Search</A>
+<DT>_<A HREF="https://www.w3schools.com/js/js_scope.asp">JavaScript Scope</A>
+<DT>_<A HREF="https://stackoverflow.com/questions/4558008/line-breaks-using-javascript-strings">line breaks using javascript strings - Stack Overflow</A>
+<DT>_<A HREF="https://www.w3schools.com/js/js_if_else.asp">JavaScript if else else if</A>
+<DT>_<A HREF="https://developer.mozilla.org/en-US/docs/Web/API/Element/remove">Element: remove() method - Web APIs | MDN</A>
+<DT>_<A HREF="https://www.w3schools.com/jsref/met_element_remove.asp">HTML DOM Element remove Method</A>
+<DT>_<A HREF="https://developer.mozilla.org/en-US/docs/Web/API/Document/createElement">Document: createElement() method - Web APIs | MDN</A>
+<DT>_<A HREF="https://stackoverflow.com/questions/9422974/createelement-with-id">javascript - CreateElement with id? - Stack Overflow</A>
+<DT>_<A HREF="https://stackoverflow.com/questions/12622465/creating-a-div-element-inside-a-div-element-in-javascript">dom - Creating a div element inside a div element in javascript - Stack Overflow</A>
+<DT>_<A HREF="https://www.w3schools.com/cssref/pr_class_visibility.php">CSS visibility property</A>
+<DT>_<A HREF="https://www.w3schools.com/css/css_image_transparency.asp">CSS Image Opacity / Transparency</A>
+<DT>_<A HREF="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random">Math.random() - JavaScript | MDN</A>
+<DT>_<A HREF="https://www.w3schools.com/js/js_random.asp">JavaScript Random</A>
+<DT>_<A HREF="https://www.w3schools.com/js/js_loop_for.asp">JavaScript for Loop</A>
+<DT>_<A HREF="https://www.w3schools.com/js/js_loop_while.asp">JavaScript while Loop</A>
+<DT>_<A HREF="https://www.w3schools.com/jsref/prop_html_innerhtml.asp">HTML DOM Element innerHTML Property</A>
+<DT>_<A HREF="https://stackoverflow.com/questions/5520835/how-can-i-generate-a-random-number-within-a-range-but-exclude-some">javascript - How can I generate a random number within a range but exclude some? - Stack Overflow</A>
+<DT>_<A HREF="https://stackoverflow.com/questions/7486085/copy-array-by-value">javascript - Copy array by value - Stack Overflow</A>
+<DT>_<A HREF="https://stackoverflow.com/questions/4550505/getting-a-random-value-from-a-javascript-array">Getting a random value from a JavaScript array - Stack Overflow</A>
+<DT>_<A HREF="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/splice">Array.prototype.splice() - JavaScript | MDN</A>
+<DT>_<A HREF="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/slice">Array.prototype.slice() - JavaScript | MDN</A>
+</details>
 
 <br><br><br>....soon more
 
