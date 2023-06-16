@@ -1,4 +1,5 @@
-//add chances visible till game over
+var BurnGhost = document.getElementById("BurnGhost");
+var  NFT= document.getElementById("NFT");
 
 var Alife_play = 0;
 var card = "";
@@ -32,8 +33,9 @@ var GameStatus =   document.getElementById("GameStatus");
 GameStatus.innerHTML = "PLAY";
 var resetBtn = document.getElementById("resetBtn");
 var scoreText = document.getElementById("scoreText");
+var lifeText = document.getElementById("lifeText");
 scoreText.innerHTML = ("Score:" + "<br>" + score);
-
+lifeText.innerHTML = ("Life:" + "<br>" + life);
 
 var card1 = document.getElementById("card1");
 var card2 = document.getElementById("card2");
@@ -65,10 +67,10 @@ resetBtn.innerHTML = "START";
 resetBtn.addEventListener("click", StartGame);
 
 function StartGame(){
+if(NFT.classList == ("fall")){
+NFT.classList.remove("fall");
+}
 if(cardmatch != 6){
-console.log("attemptC9" + attemptC9);
-console.log("life"+life);
-console.log("cardcount" + cardcount);
 
 if (Alife_play != 0){
 }
@@ -136,6 +138,7 @@ cardmatch = 0;
 GameStatus.innerHTML = "PLAYING";
 resetBtn.innerHTML = "RESET";
 scoreText.innerHTML = ("Score:" + "<br>" + score);
+lifeText.innerHTML = ("Life:" + "<br>" + life);
 play();
 }
 if(cardmatch >= 6){
@@ -206,6 +209,7 @@ attemptC11  = 0;
 attemptC12  = 0;
 cardmatch = 0;
 life = 3;
+lifeText.innerHTML = ("Life:" + "<br>" + life);
 card = "";
 cardnumber = "";
 cardcount = 0;
@@ -224,15 +228,15 @@ array_cards_number_in_use =  array_cards_number.slice();
 
 let number_in_card = 0;
 for (let i = 1; i <= 6; i++ ){
-console.log(array_cards_number_in_use)
+
 let cardnumber =  Math.floor(Math.random() * array_cards_number_in_use.length);
 let cardnumber1 =  array_cards_number_in_use[cardnumber];
 array_cards_number_in_use.splice(cardnumber, 1);
-console.log(array_cards_number_in_use)
+
 cardnumber =  Math.floor(Math.random() * array_cards_number_in_use.length);
 cardnumber2 =  array_cards_number_in_use[cardnumber];
 array_cards_number_in_use.splice(cardnumber, 1);
-console.log(array_cards_number_in_use);
+
 
 cardnumber1 = "card" + cardnumber1 +"_inner"; 
 cardnumber2 = "card" + cardnumber2 +"_inner"; 
@@ -245,40 +249,52 @@ document.getElementById(cardnumber2).innerHTML = number_in_card;
 
 
 card1.addEventListener("click",  card1F);
-function card1F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("1"); cardcount += 1; attemptC1 += 1; if(attemptC1>3){life -= 1;}}}
+function card1F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("1"); cardcount += 1; attemptC1 += 1; if(attemptC1>3){life -= 1;
+lifeText.innerHTML = ("Life:" + "<br>" + life);}}}
 card2.addEventListener("click",  card2F);
 
-function card2F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("2"); cardcount += 1; attemptC2 += 1; if(attemptC2>3){life -= 1;}}}
+function card2F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("2"); cardcount += 1; attemptC2 += 1; if(attemptC2>3){life -= 1;
+lifeText.innerHTML = ("Life:" + "<br>" + life);}}}
 card3.addEventListener("click",  card3F);
 
-function card3F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("3"); cardcount += 1; attemptC3 += 1; if(attemptC3>2){life -= 1;}}}
+function card3F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("3"); cardcount += 1; attemptC3 += 1; if(attemptC3>2){life -= 1;
+lifeText.innerHTML = ("Life:" + "<br>" + life);}}}
 card4.addEventListener("click",  card4F);
 
-function card4F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("4"); cardcount += 1; attemptC4 += 1; if(attemptC4>2){life -= 1;}}}
+function card4F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("4"); cardcount += 1; attemptC4 += 1; if(attemptC4>2){life -= 1;
+lifeText.innerHTML = ("Life:" + "<br>" + life);}}}
 card5.addEventListener("click",  card5F);
 
-function card5F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("5"); cardcount += 1; attemptC5 += 1; if(attemptC5>2){life -= 1;}}}
+function card5F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("5"); cardcount += 1; attemptC5 += 1; if(attemptC5>2){life -= 1;
+lifeText.innerHTML = ("Life:" + "<br>" + life);}}}
 card6.addEventListener("click",  card6F);
 
-function card6F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("6"); cardcount += 1; attemptC6 += 1; if(attemptC6>2){life -= 1;}}}
+function card6F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("6"); cardcount += 1; attemptC6 += 1; if(attemptC6>2){life -= 1;
+lifeText.innerHTML = ("Life:" + "<br>" + life);}}}
 card7.addEventListener("click",  card7F);
 
-function card7F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("7"); cardcount += 1; attemptC7 += 1; if(attemptC7>2){life -= 1;}}}
+function card7F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("7"); cardcount += 1; attemptC7 += 1; if(attemptC7>2){life -= 1;
+lifeText.innerHTML = ("Life:" + "<br>" + life);}}}
 card8.addEventListener("click",  card8F);
 
-function card8F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("8"); cardcount += 1; attemptC8 += 1; if(attemptC8>2){life -= 1;}}}
+function card8F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("8"); cardcount += 1; attemptC8 += 1; if(attemptC8>2){life -= 1;
+lifeText.innerHTML = ("Life:" + "<br>" + life);}}}
 card9.addEventListener("click",  card9F);
 
-function card9F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("9"); cardcount += 1; attemptC9 += 1; if(attemptC9>2){life -= 1;}}}
+function card9F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("9"); cardcount += 1; attemptC9 += 1; if(attemptC9>2){life -= 1;
+lifeText.innerHTML = ("Life:" + "<br>" + life);}}}
 card10.addEventListener("click",  card10F);
 
-function card10F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("10"); cardcount += 1; attemptC10 += 1; if(attemptC10>2){life -= 1;}}}
+function card10F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("10"); cardcount += 1; attemptC10 += 1; if(attemptC10>2){life -= 1;
+lifeText.innerHTML = ("Life:" + "<br>" + life);}}}
 card11.addEventListener("click",  card11F);
 
-function card11F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("11"); cardcount += 1; attemptC11 += 1; if(attemptC11>2){life -= 1;}}}
+function card11F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("11"); cardcount += 1; attemptC11 += 1; if(attemptC11>2){life -= 1;
+lifeText.innerHTML = ("Life:" + "<br>" + life);}}}
 card12.addEventListener("click",  card12F);
 
-function card12F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("12"); cardcount += 1; attemptC12 += 1; if(attemptC12>2){life -= 1;}}}
+function card12F(){if(life < 0){endGame();} else if(Alife_play == 1){opencard("12"); cardcount += 1; attemptC12 += 1; if(attemptC12>2){life -= 1;
+lifeText.innerHTML = ("Life:" + "<br>" + life);}}}
 
 function life_play(){
 Alife_play = 1;
@@ -364,6 +380,7 @@ if (life >=0){
 if (cardmatch == 6){
 score +=1;
 scoreText.innerHTML = ("Score:" + "<br>" + score);
+lifeText.innerHTML = ("Life:" + "<br>" + life);
 nextGame();
 }
 }
@@ -400,6 +417,7 @@ life_play();
 }
 if(cardmatch == 6){
 scoreText.innerHTML = ("Score:" + "<br>" + score);
+lifeText.innerHTML = ("Life:" + "<br>" + life);
 nextGame();
 }
 }
@@ -415,6 +433,7 @@ function endGame(){
 GameStatus.innerHTML = "GAME OVER";
 resetBtn.innerHTML = "AGAIN";
 scoreText.innerHTML = ("Score:" + "<br>" + score);
+lifeText.innerHTML = ("Life:" + "<br>" + life);
 
 card1_inner = "";
 card2_inner = "";
@@ -488,8 +507,12 @@ cardmatch = 0;
 };
 
 function nextGame(){
+BurnGhost.classList.add("fly");
+NFT.classList.add("fall");
+setTimeout( function() {BurnGhost.classList.remove("fly");}, 2000)
 GameStatus.innerHTML = "GOING UP";
 resetBtn.innerHTML = "NEXT";
 scoreText.innerHTML = ("Score:" + "<br>" + score);
+lifeText.innerHTML = ("Life:" + "<br>" + life);
 }
 
