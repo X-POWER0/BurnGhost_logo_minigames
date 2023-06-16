@@ -56,7 +56,7 @@ div#scoreText {
     font-size: 8vw;
     //position: relative;
 position: absolute;
- left: 9vw;
+ left: 8.5vw;
     bottom: 10vh;
 }
 div#lifeText {
