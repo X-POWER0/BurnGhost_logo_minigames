@@ -53,32 +53,48 @@ div#cards_place {
 
 div#scoreText {
     color: white;
-    font-size: 8vh;
+    font-size: 8vw;
     //position: relative;
 position: absolute;
+ left: 9vw;
+    bottom: 10vh;
+}
+div#lifeText {
+    color: red;
+    font-size: 8vw;
+    //position: relative;
+position: absolute;
+    left: 74vw;
     bottom: 10vh;
 }
 
 div#BurnGhost {
     //position: relative;
 position: absolute;
-    width: 9vw;
-    height: 16vh;
-    margin-left: 18vw;
+    //width: 9vw;
+    width: 16vw;
+    height: 12vh;
+    margin-left: 16vw;
     margin-right: 48%;
     top: 63%;
-    background-color: orange;
+    //background-color: orange;
+    background-image: url(img/bg.png);
+    //background-size: 125px 100px;
+background-size: 14vw 12vh;
 }
 
 div#NFT {
     //position: relative;
 position: absolute;    
-background-color: white;
+//background-color: white;
     width: 12vw;
     height: 10vh;
     top: 1vh;
     /* bottom: 20vh; */
     left: 44vw;
+    background-image: url(img/nft.png);
+    //background-size: 80px 32px;
+    background-size: 12vw 9.2vh;
 }
 
 
@@ -93,7 +109,8 @@ bottom: 1vh;
 
 div#NFT.fall {
     color: darkgrey;
-    animation: falldown 1.3s linear;
+    animation: falldown 1.6s linear;
+visibility: hidden;
 }
 
 body {
@@ -101,41 +118,72 @@ body {
 }
 
 div#BurnGhost.fly {
-    animation: fly 1s linear;
+    animation: fly 1.5s linear;
 }
 
 @keyframes falldown{
     0%{
-top: -54vh;
-      left: 16vw;
+visibility: visible;
+top: 1vh;
+      left: 44vw;
+      right: 44vw;
     }
     30%{
-top: -44vh;
-left: 8vw;
-    }
+visibility: visible;
+top: 12vh;
+      left: 44vw;
+      right: 44vw;
+        }
     50%{
-top: -34vh;
-left: 14vw;
-    }
+visibility: visible;
+top: 25vh;
+      left: 40vw;
+      right: 24vw;
+    background-size: 150px 60px;
+    width: 22vw;
+    height: 19vh;
+        }
     80%{
-top: -16vh;
-left: 24vw;
-    }
+visibility: visible;
+top: 32vh;
+      left: 30vw;
+      right: 24vw;
+        }
     90%{
-     top: -10vh;
-        left: 18vw;
-    }
+visibility: visible;
+     top: 40vh;
+      left: 30vw;
+      right: 24vw;
+    background-size: 265px 106px;
+    width: 48vw;
+    height: 40vh;
+        }
     100%{
-     top: -4vh;  
-      left: 16vw;
-    }
+visibility: visible;
+     top: 55vh;  
+      left:24vw;
+      right: 24vw;
+background-color: white;
+    background-size: 265px 106px;
+    width: 48vw;
+    height: 40vh;
+
+     }
 }
 @keyframes fly{
     0%{
-top: 20%;
+top: 45%;
     }
+80%{
+        top: 25%;
+}
+    80%{
+        top: 15%;
+
+    }
+
     100%{
-        top: 0%;
+        top: -10%;
     }
 }
 
