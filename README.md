@@ -16,7 +16,7 @@ first test try of js game making <a href="https://en.wikipedia.org/wiki/Dinosaur
 <br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_jump/bg_js_jump_gameV0/bg_js_jump.html"  target="_blank">bg_js_jump_V0</a> - first try, simple jump, BUGGY(going to add animation and more gameplay)
 <br><br>
 Tutorials used: <br>
-<a href="https://www.youtube.com/watch?v=Av53VJI-UiE">Game on JavaScript for beginers. VERY EASY!(ua creator on rus lang)</a>
+<a href="https://www.youtube.com/watch?v=Av53VJI-UiE">Game on JavaScript for beginers. VERY EASY!(ua on rus lang)</a>
 <br>Software used: 
 <br><a href="http://aljacom.com/~gimp/">Gimp 2.10 portable</a>
 <br><a href="http://akelpad.sf.net">AkelaPad 4.9.8</a>
