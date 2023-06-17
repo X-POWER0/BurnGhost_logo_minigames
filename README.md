@@ -40,8 +40,8 @@ third test try of js game making <a href="https://en.wikipedia.org/wiki/Concentr
 <br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_match/bg_js_match_v0/bg_js_match.html"  target="_blank">bg_js_match_V0</a> - first try, simple match,
 <br><br>
 Tutorials used: <br>
-< a href="https://www.youtube.com/watch?v=bOjgOOmPGTA">HTML, CSS, & JavaScript: Matching Game</a>
-Info used:
+<a href="https://www.youtube.com/watch?v=bOjgOOmPGTA">HTML, CSS, & JavaScript: Matching Game</a>
+<br>Info used:
 <details>
 <summary>Links to all research materials used in process of creating bg_js_match</summary>
 <DT>_<A HREF="https://stackoverflow.com/questions/4706960/how-to-return-a-variable-from-a-javascript-function-into-html-body">How to return a variable from a javascript function into html body - Stack Overflow</A>
