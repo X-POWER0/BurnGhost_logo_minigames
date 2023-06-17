@@ -11,33 +11,32 @@ Not going and not trying to do anything disrespectfull or infringing in any way
 Planned to be small series of minigames, to try out easy and fun making of mini games.
 
 <h3>--<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_jump/bg_js_jump_gameV0/bg_js_jump.html"  target="_blank">bg_js_jump</a></h3>
-first test try of js game making <a href="https://en.wikipedia.org/wiki/Dinosaur_Game"  target="_blank">"Chrome Dino"</a> remake with Burn Ghost art<br>
-jump to avoid water(use keyboard, buttons or click on BurnGhost).
+first test try of js game making <a href="https://en.wikipedia.org/wiki/Dinosaur_Game"  target="_blank">"Chrome Dino"</a> remake with Burn Ghost art.<br>
+[[Jump to avoid water(use keyboard, buttons or click on BurnGhost).]]
 <br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_jump/bg_js_jump_gameV0/bg_js_jump.html"  target="_blank">bg_js_jump_V0</a> - first try, simple jump, BUGGY(going to add animation and more gameplay)
 <br><br>
 Tutorials used: <br>
 https://www.youtube.com/watch?v=Av53VJI-UiE
 <br>Software used: 
-<br>Gimp 2.10 portable
-<br>http://aljacom.com/~gimp/
-<br>AkelaPad 4.9.8
-<br>http://akelpad.sf.net
-<br>Notepad++ 7.9.2 (Stand with Hong Kong)
-<br>https://notepad-plus-plus.org
-<br>Google Chrome 105 (DeveloperTools)
-<br>https://www.google.com/chrome/
+<br><a href="http://aljacom.com/~gimp/">Gimp 2.10 portable</a>
+<br><a href="http://akelpad.sf.net">AkelaPad 4.9.8</a>
+<br><a href="https://notepad-plus-plus.org">Notepad++ 7.9.2 (Stand with Hong Kong)</a>
+<br><a href="https://www.google.com/chrome/">Google Chrome 105</a> (DeveloperTools)
+<br><a href="https://github.com/portapps/brave-portable">Brave Portable</a>
+
 
 <h3>--<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_snake/bg_js_snake_v0/bg_js_snake.html"  target="_blank">bg_js_snake</a></h3>
-second test try of js game making FAMOUS <a href="https://en.wikipedia.org/wiki/Snake_(video_game_genre)"  target="_blank">"Snake"</a> remake with Burn Ghost art<br>
-eat (need decide what's it) and avoid hitting walls and self(use keyboard, buttons or click nav buttons).
+second test try of js game making FAMOUS <a href="https://en.wikipedia.org/wiki/Snake_(video_game_genre)"  target="_blank">"Snake"</a> remake with Burn Ghost art.<br>
+[[Eat (need decide what's it), avoid hitting walls and self(use keyboard, buttons or click nav buttons).]]
 <br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_jump/bg_js_jump_gameV0/bg_js_jump.html"  target="_blank">bg_js_snake_V0</a> - first try, simple snake, (need to replace food with art)
 <br><br>
 Tutorials used: <br>
 https://www.youtube.com/watch?v=Je0B3nHhKmM
 
 <h3>--<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_match/bg_js_match_v0/bg_js_match.html"  target="_blank">bg_js_match</a></h3>
-third test try of js game making <a href="https://en.wikipedia.org/wiki/Concentration_(card_game)">Match(Concentration)</a> remake with Burn Ghost art<br>
-no description work in progress...
+third test try of js game making <a href="https://en.wikipedia.org/wiki/Concentration_(card_game)">Match(Concentration)</a> remake with Burn Ghost art.<br>
+[[Click "START" button. Clicking two matching cards removes them. Remove them all to ruin obsticle between BurnGhost and his NFTs. Every finished round gives Score.
+<br><b>!!Each card must be clicked not more then twice or You will lose Lifes.!!</b> When all lifes gone - GAME OVER. <br>Click "AGAIN" to start over.]]
 <br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_match/bg_js_match_v0/bg_js_match.html"  target="_blank">bg_js_match_V0</a> - first try, simple match,
 <br><br>
 Tutorials used: <br>
