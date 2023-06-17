@@ -16,7 +16,7 @@ first test try of js game making <a href="https://en.wikipedia.org/wiki/Dinosaur
 <br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_jump/bg_js_jump_gameV0/bg_js_jump.html"  target="_blank">bg_js_jump_V0</a> - first try, simple jump, BUGGY(going to add animation and more gameplay)
 <br><br>
 Tutorials used: <br>
-https://www.youtube.com/watch?v=Av53VJI-UiE
+<a href="https://www.youtube.com/watch?v=Av53VJI-UiE">Game on JavaScript for beginers. VERY EASY!(ua creator on rus lang)</a>
 <br>Software used: 
 <br><a href="http://aljacom.com/~gimp/">Gimp 2.10 portable</a>
 <br><a href="http://akelpad.sf.net">AkelaPad 4.9.8</a>
@@ -31,7 +31,7 @@ second test try of js game making FAMOUS <a href="https://en.wikipedia.org/wiki/
 <br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_jump/bg_js_jump_gameV0/bg_js_jump.html"  target="_blank">bg_js_snake_V0</a> - first try, simple snake, (need to replace food with art)
 <br><br>
 Tutorials used: <br>
-https://www.youtube.com/watch?v=Je0B3nHhKmM
+<a href="https://www.youtube.com/watch?v=Je0B3nHhKmM">A game of Snake written in JavaScript</a>
 
 <h3>--<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_match/bg_js_match_v0/bg_js_match.html"  target="_blank">bg_js_match</a></h3>
 third test try of js game making <a href="https://en.wikipedia.org/wiki/Concentration_(card_game)">Match(Concentration)</a> remake with Burn Ghost art.<br>
@@ -40,7 +40,7 @@ third test try of js game making <a href="https://en.wikipedia.org/wiki/Concentr
 <br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_match/bg_js_match_v0/bg_js_match.html"  target="_blank">bg_js_match_V0</a> - first try, simple match,
 <br><br>
 Tutorials used: <br>
-https://www.youtube.com/watch?v=bOjgOOmPGTA
+< a href="https://www.youtube.com/watch?v=bOjgOOmPGTA">HTML, CSS, & JavaScript: Matching Game</a>
 Info used:
 <details>
 <summary>Links to all research materials used in process of creating bg_js_match</summary>
