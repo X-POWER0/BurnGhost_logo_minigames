@@ -1,0 +1,222 @@
+a#gitlink {
+    font-size: 5vh;
+    color: lightgray;
+    bottom: 0px;
+    position: absolute;
+}
+
+.block{
+   width:15vw;
+   height:100vh; 
+    background-image: url(tube.png);
+background-size: 15vw 100vh;
+   //background-color:red;
+   position:relative;
+   left:60vw;
+ //  animation: block 2s infinite linear;
+   }
+.blockanim{
+   width:15vw;
+   height:100vh; 
+    background-image: url(tube.png);
+background-size: 15vw 100vh;
+  // background-color:red;
+   position:relative;
+   left:60vw;
+   animation: block 2s infinite linear;
+   }
+
+#character{
+    width:7vw;
+    height:20vh;
+    background-image: url(bg.png);
+background-size: 7vw 20vh;
+   // background-color:orange;
+    position:relative;
+    top:-90vh;
+    //border-radius:50%;
+}
+.hole{
+       width:18vw;
+   height:30vh; 
+   top:-90vh;
+    background-image: url(hole.png);
+background-size: 18vw 30vh;
+   //background-color:black;
+   position:relative;
+   left:60vw;
+   //animation: block 2s infinite linear;
+  
+}
+.holeanim{
+       width:18vw;
+   height:30vh; 
+   top:-90vh;
+    background-image: url(hole.png);
+background-size: 18vw 30vh;
+   //background-color:black;
+   position:relative;
+   left:60vw;
+   animation: block 2s infinite linear;
+  
+}
+#gameContainer{
+	text-align: center;
+//padding-bottom: 20vh;
+//    padding-top: 5vh;
+    padding-left: 20vw;
+    padding-right: 20vw;
+  //  width: 50vw;
+    height: 90vh;
+overflow:hidden;
+
+    background-image: url(bk.png);
+background-size: 50vw 80vh;
+}
+
+#Land{
+	text-align: center;
+margin-top: 60vh;
+    height: 10vh;
+  // top:-90vh;
+ position:relative;
+width: 110vw;
+   left: -25vw;
+   // overflow:hidden;
+    background-image: url(water.png);
+background-size: 30vw 30vh;
+}
+.Land{
+	text-align: center;
+margin-top: 60vh;
+    height: 10vh;
+  top:-130vh;
+ position:relative;
+width: 140vw;
+   left: -25vw;
+   // overflow:hidden;
+    background-image: url(water.png);
+background-size: 30vw 30vh;
+}
+
+.LandAnim{
+	text-align: center;
+//margin-top: 60vh;
+    height: 10vh;
+  top:-130vh;
+   left: -25vw;
+ //position:relative;
+width: 140vw;
+    //padding-right: 20vw;
+   // overflow:hidden;
+    background-image: url(water.png);
+background-size: 30vw 30vh;
+   animation: land_anim 2s infinite linear;
+}
+
+#gameBoard{
+	border: 3px solid;   
+    /* position: relative; */
+    //left: 50vw;
+    //right: 50vw;
+    //bottom: 20%;
+    //top: 20%;
+    //color: black;
+}
+}
+#scoreText{
+    font-family: 'Lucida', monospace;
+    font-size: 10vh;
+    color: white;
+    background-color:  rgba(0,0,0,20);
+
+background-size: 100vw 100vh;
+position: absolute;
+    left: 10%;
+    right: 70%;
+    bottom: 10%;
+    opacity: 70%;
+}
+#gameText{
+    font-family: 'Lucida', monospace;
+    font-size: 70px;
+    color: #ffeb00;
+    position: absolute;
+    left: 5%;
+    right: 50%;
+    width: 500px;
+    top: 10%;
+    opacity: 80%;
+}
+#resetBtn{
+    font-family: 'Lucida', monospace;
+    font-size: 42px;
+    width: 140px;
+    height: 70px;
+    border: 8px solid;
+    border-radius: 15px;
+    background-color: black;
+    color: #ff7600;
+    cursor: pointer;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    right: 50%;
+    opacity: 70%;
+}
+.navBtn{
+    font-family: 'Lucida', monospace;
+    font-size: 22px;
+    color: black;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    position: absolute;
+    background-color: #ff8c00;
+    font-weight: 900;
+    opacity: 40%;
+}
+#up{
+    right: 50%;
+    left: 50%;
+    top: 55%;
+    bottom: 99%;
+}
+#down{
+    //position: relative;
+    right: 50%;
+    left: 50%;
+    /* top: 99%; */
+    bottom: 0%;
+}
+#left{
+    top: 50%;
+    bottom: 50%;
+    left: 10%;
+}
+#right{
+    right: 10%;
+    top: 50%;
+    bottom: 50%;
+}
+@keyframes block{
+    0%{left:60vw;}
+100%{left:-45vw;}
+}
+@keyframes land_anim{
+   0%{   
+
+   left: -25vw;
+height: 10vh;
+  top:-130vh;
+ width: 160vw;
+ 
+}
+100%{
+width: 160vw;
+ 
+   left: -55vw;
+height: 10vh;
+  top:-130vh;
+}
+}
