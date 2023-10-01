@@ -73,6 +73,21 @@ Tutorials used: <br>
 <DT>_<A HREF="https://stackoverflow.com/questions/5767325/how-can-i-remove-a-specific-item-from-an-array-in-javascript">How can I remove a specific item from an array in JavaScript? - Stack Overflow</A>
 </details>
 
+
+<h3>--<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_flappybird/bg_js_flappybird.html"  target="_blank">bg_js_flappybird</a></h3>
+try of js game making <a href="https://en.wikipedia.org/wiki/Flappy_Bird">FlappyBird</a> remake with Burn Ghost art.<br>
+[[Click "START" button. And click It t o Jump/Flap aboid falling into water and fountains. You can track highscore in one session(score not saved on reload).
+<br><b>!!Jump cautiously and calcualate Your every move(OHhh!!!! IT's SO BUGGY";) ).!!</b><br>Click "AGAIN" to start over.]]
+<br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_flappybird/bg_js_flappybird.html"  target="_blank">bg_js_flappybird</a> - first try,
+<br><br>
+Tutorials used: <br>
+<a href="https://www.youtube.com/watch?v=3SsYZDJdeXk">The Easiest Flappy Bird Tutorial Ever?</a>
+<br>Info used:
+<details>
+<summary>Links to all research materials used in process of creating bg_js_match</summary>
+..more links soon
+</details>
+
 <br><br><br>....soon more
 
 !!!EVERYONE reading this HAVE A NEAT TIME SPEND)
