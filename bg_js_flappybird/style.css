@@ -38,10 +38,10 @@ background-size: 7vw 20vh;
 }
 .hole{
        width:18vw;
-   height:30vh; 
-   top:-90vh;
+   height:50vh; 
+   top:-80vh;
     background-image: url(hole.png);
-background-size: 18vw 30vh;
+background-size: 18vw 50vh;
    //background-color:black;
    position:relative;
    left:60vw;
@@ -50,10 +50,10 @@ background-size: 18vw 30vh;
 }
 .holeanim{
        width:18vw;
-   height:30vh; 
-   top:-90vh;
+   height:50vh; 
+   top:-80vh;
     background-image: url(hole.png);
-background-size: 18vw 30vh;
+background-size: 18vw 50vh;
    //background-color:black;
    position:relative;
    left:60vw;
@@ -70,6 +70,7 @@ background-size: 18vw 30vh;
     height: 90vh;
 overflow:hidden;
 
+  touch-action: manipulation;
     background-image: url(bk.png);
 background-size: 50vw 80vh;
 }
@@ -90,7 +91,7 @@ background-size: 30vw 30vh;
 	text-align: center;
 margin-top: 60vh;
     height: 10vh;
-  top:-130vh;
+  top:-150vh;
  position:relative;
 width: 140vw;
    left: -25vw;
@@ -103,7 +104,7 @@ background-size: 30vw 30vh;
 	text-align: center;
 //margin-top: 60vh;
     height: 10vh;
-  top:-130vh;
+  top:-150vh;
    left: -25vw;
  //position:relative;
 width: 140vw;
@@ -136,6 +137,11 @@ position: absolute;
     right: 70%;
     bottom: 10%;
     opacity: 70%;
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
 }
 #gameText{
     font-family: 'Lucida', monospace;
@@ -147,9 +153,15 @@ position: absolute;
     width: 500px;
     top: 10%;
     opacity: 80%;
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
 }
 #resetBtn{
-	 touch-action: manipulation;
+
+  touch-action: manipulation;
     font-family: 'Lucida', monospace;
     font-size: 42px;
     width: 140px;
@@ -164,6 +176,11 @@ position: absolute;
     left: 50%;
     right: 50%;
     opacity: 70%;
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
 }
 .navBtn{
     font-family: 'Lucida', monospace;
@@ -209,7 +226,7 @@ position: absolute;
 
    left: -25vw;
 height: 10vh;
-  top:-130vh;
+  top:-150vh;
  width: 160vw;
  
 }
@@ -218,6 +235,6 @@ width: 160vw;
  
    left: -55vw;
 height: 10vh;
-  top:-130vh;
+  top:-150vh;
 }
 }
