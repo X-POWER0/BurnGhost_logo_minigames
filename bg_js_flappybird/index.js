@@ -41,6 +41,7 @@ if(score>hscore){hscore = score;}
 
 character.style.top = -document.documentElement.clientHeight * 0.9 + "px";
 
+character.style.top = (characterTOP -90)+"px";
 if(block.classList != ("blockanim")){
 block.classList.add("blockanim");
 block.classList.remove("block");
@@ -54,7 +55,7 @@ hole.classList.remove("hole");
 
 hole.addEventListener('animationiteration',()=>{
 if(running != false){
-	var random = -((Math.random()*45) + 50);
+	var random = -((Math.random()*34) + 60);
 hole.style.top = random + "vh";	
 score++;
 if(score>hscore){hscore = score;}
@@ -81,8 +82,8 @@ jumping = 1;
 
 var jumpInterval = setInterval(function(){
 	var characterTOP = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
-if(running != false && characterTOP>-document.documentElement.clientHeight * 1.2 && JumpCount<15){
-character.style.top = (characterTOP - 5)+"px";
+if(running != false && characterTOP>-document.documentElement.clientHeight * 1.8 && JumpCount<15){
+character.style.top = (characterTOP - 3)+"px";
 JumpCount ++;
 
 jumping = 0;
@@ -107,23 +108,31 @@ Gravity = setInterval(function(){
 	var characterTOP = parseInt(window.getComputedStyle(character).getPropertyValue("top"));
 	var characterHeight = parseInt(window.getComputedStyle(character).getPropertyValue("height"));
 
-if(running != false && characterTOP>-document.documentElement.clientHeight * 1.25  && jumping == 0){
+if(running != false && jumping == 0){
 character.style.top = (characterTOP+1)+"px";
 }
-
 
 //to check hit of block or hole
 	var holeTop = parseInt(window.getComputedStyle(hole).getPropertyValue("top"));
 var cTop = -(document.documentElement.clientHeight-characterTOP);
+var cLeft = parseInt(window.getComputedStyle(character).getPropertyValue("right"));
+
+var holeHight = parseInt(window.getComputedStyle(hole).getPropertyValue("height"));
 
 var blockLFT = parseInt(window.getComputedStyle(block).getPropertyValue("left"));
-	
+	var holeBottom = parseInt(window.getComputedStyle(hole).getPropertyValue("bottom"));
 
 //Check GAME oVER
-if(running != false && characterTOP> -document.documentElement.clientHeight * 0.6 || running != false && (blockLFT> -document.documentElement.clientHeight * 0.15) && (blockLFT<document.documentElement.clientHeight * 0.1)&&((characterTOP<holeTop - document.documentElement.clientHeight * 0.3) || (characterTOP>holeTop) )){
-//console.log(cTop);  
-//console.log(holeTop);
-//console.log(characterTOP);
+if(running != false && characterTOP> -document.documentElement.clientHeight * 0.6 || running != false && (blockLFT> -document.documentElement.clientWidth * 0.15) && (blockLFT<document.documentElement.clientWidth * 0.05)&&((characterTOP>-(holeBottom+holeHight*0.4)) || (characterTOP<(-document.documentElement.clientHeight+holeTop+holeHight)) )){
+//console.log(cLeft + "char"); 
+//console.log(document.documentElement.clientWidth);  
+console.log(holeHight +"holeH");  
+console.log(holeTop+"hole");
+console.log(-(document.documentElement.clientHeight-(holeBottom-holeHight*0.5)));
+console.log(-(document.documentElement.clientHeight-holeBottom));
+console.log(holeBottom+"hb");
+console.log(characterTOP+"char");
+console.log(-document.documentElement.clientHeight+holeTop+holeHight);
 // || (cTop>holeTop+10))
 // 
 checkGameOver();
@@ -182,8 +191,10 @@ function changeDirection(event){
 };
 function checkGameOver(){
 
-random = -((Math.random()*65) + 40);
-hole.style.top = random + "vh";	
+//random = -((Math.random()*65) + 40);
+//hole.style.top = random + "vh";	
+hole.style.top = -80 + "vh";	
+
 counter = 0;
 	running = false;
 character.style.top = -document.documentElement.clientHeight * 0.9 + "px";
