@@ -1,4 +1,4 @@
-const upBtn = document.getElementById("up");
+
 var hole = document.getElementById("hole");
 var block = document.getElementById("block");
 
