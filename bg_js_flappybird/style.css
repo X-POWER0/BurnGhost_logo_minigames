@@ -61,6 +61,7 @@ background-size: 18vw 50vh;
   
 }
 #gameContainer{
+	-webkit-tap-highlight-color: transparent;
 	user-select: noselect;
 	text-align: center;
 //padding-bottom: 20vh;
@@ -140,6 +141,7 @@ background-size: 30vw 30vh;
 	
 -khtml-user-select:none;
 -webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
 }
 }
 #scoreText{
@@ -162,6 +164,7 @@ position: absolute;
         -moz-user-select: none;
         -ms-user-select: none;
         user-select: none;
+	-webkit-tap-highlight-color: transparent;
 }
 #gameText{
 	user-select: noselect;
@@ -182,6 +185,7 @@ position: absolute;
 	
 -khtml-user-select:none;
 -webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
 }
 #resetBtn{
 user-select: noselect;
@@ -208,6 +212,7 @@ user-select: noselect;
 	
 -khtml-user-select:none;
 -webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
 }
 .navBtn{
     font-family: 'Lucida', monospace;
