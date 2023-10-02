@@ -2,6 +2,7 @@ const upBtn = document.getElementById("up");
 var hole = document.getElementById("hole");
 var block = document.getElementById("block");
 
+let PREscore = 0;
 var water = document.getElementById("Land");
 var character = document.getElementById("character");
 var jumping = 0;
@@ -12,18 +13,11 @@ var characterTOP = parseInt(window.getComputedStyle(character).getPropertyValue(
 
 
 
-//const gameBoard = document.getElementById("gameBoard");
-
-//character.addEventListener('click',  jump());
-
-
 const scoreText = document.querySelector("#scoreText");
 const gameText = document.querySelector("#gameText");
 const textField = document.querySelector('#text-field');
 
 const resetBtn = document.querySelector("#resetBtn");
-//const scoreText = document.getElementById("score");
-//const resetBtn = document.getElementById("resetBtn");
 
 
 let running = false;
@@ -54,10 +48,13 @@ hole.classList.remove("hole");
 }
 
 hole.addEventListener('animationiteration',()=>{
+
 if(running != false){
 	var random = -((Math.random()*34) + 60);
 hole.style.top = random + "vh";	
-score++;
+//to avoid error of more then 1
+PREscore++;
+
 if(score>hscore){hscore = score;}
 	scoreText.textContent = "sc:"+ score+"_"+"hs:"+hscore;
 
@@ -78,6 +75,11 @@ gameText.textContent = gmTxt;
 };
 
 function jump(){
+
+if(PREscore>0){score++; PREscore = 0;}
+
+if(score>hscore){hscore = score;}
+	scoreText.textContent = "sc:"+ score+"_"+"hs:"+hscore;
 jumping = 1;
 
 var jumpInterval = setInterval(function(){
@@ -100,7 +102,8 @@ if(running != false && JumpCount>1 ){
 function nextTick(){
 	if(running){
 var blockLEFT = parseInt(window.getComputedStyle(block).getPropertyValue("left"));
-	
+
+if(PREscore>0){score++; PREscore = 0;}
 if(score>hscore){hscore = score;}
 	scoreText.textContent = "sc:"+ score+"_"+"hs:"+hscore;
 hole.style.left = block.style.left+"vw";
@@ -110,6 +113,7 @@ Gravity = setInterval(function(){
 
 if(running != false && jumping == 0){
 character.style.top = (characterTOP+1)+"px";
+
 }
 
 //to check hit of block or hole
@@ -124,24 +128,14 @@ var blockLFT = parseInt(window.getComputedStyle(block).getPropertyValue("left"))
 
 //Check GAME oVER
 if(running != false && characterTOP> -document.documentElement.clientHeight * 0.6 || running != false && (blockLFT> -document.documentElement.clientWidth * 0.15) && (blockLFT<document.documentElement.clientWidth * 0.05)&&((characterTOP>-(holeBottom+holeHight*0.4)) || (characterTOP<(-document.documentElement.clientHeight+holeTop+holeHight)) )){
-//console.log(cLeft + "char"); 
-//console.log(document.documentElement.clientWidth);  
-console.log(holeHight +"holeH");  
-console.log(holeTop+"hole");
-console.log(-(document.documentElement.clientHeight-(holeBottom-holeHight*0.5)));
-console.log(-(document.documentElement.clientHeight-holeBottom));
-console.log(holeBottom+"hb");
-console.log(characterTOP+"char");
-console.log(-document.documentElement.clientHeight+holeTop+holeHight);
-// || (cTop>holeTop+10))
-// 
+
 checkGameOver();
 if(hole.classList != ("hole")){
 hole.classList.add("hole");
 hole.classList.remove("holeanim");
 }
-
-score=0;
+PREscore = 0;
+score = 0;
 running = false;
 displayGameOver();
 character.style.top = -document.documentElement.clientHeight * 0.9 + "px";
@@ -169,26 +163,6 @@ water.classList.remove("LandAnim");
 	}
 };
 
-function changeDirection(event){
-	const keyPressed = event.keyCode;
-	console.log(keyPressed);
-	const LEFT = 37;
-	const UP = 38;
-	const RIGHT = 39;
-	const DOWN = 40;
-
-	const UP_letter = 87;
-	const DOWN_letter = 83;
-	const LEFT_letter = 65;
-	const RIGHT_letter = 68;
-	
-	//const goingUp = (yVelocity == -unitSize);
-	//const goingDown = (yVelocity == unitSize);
-	//const goingRight = (xVelocity == unitSize);
-	//const goingLeft = (xVelocity == -unitSize);
-
-
-};
 function checkGameOver(){
 
 //random = -((Math.random()*65) + 40);
@@ -235,6 +209,7 @@ if(!running){
 gmTxt = "PLAYING";
 resetBtn.textContent = "JUMP";
 	score = 0;
+PREscore = 0;
 clearInterval(Gravity);
 jumping = 0;
 JumpCount = 0;
