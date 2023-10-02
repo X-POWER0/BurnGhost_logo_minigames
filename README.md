@@ -76,7 +76,7 @@ Tutorials used: <br>
 
 <h3>--<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_flappybird/bg_js_flappybird.html"  target="_blank">bg_js_flappybird</a></h3>
 try of js game making <a href="https://en.wikipedia.org/wiki/Flappy_Bird">FlappyBird</a> remake with Burn Ghost art.<br>
-[[Click "START" button. And click It to Jump/Flap avoid falling into water and fountains. You can track highscore in one session(score not saved on reload).
+[[Click "START" button. And click It to Jump/Flap, avoid falling into water and fountains. You can track highscore in one session(score not saved on reload).
 <br><b>!!Jump cautiously and calcualate Your every move;) ).!!</b><br>Click "AGAIN" to start over.]]
 <br>----<a href="https://x-power0.github.io/BurnGhost_logo_minigames/bg_js_flappybird/bg_js_flappybird.html"  target="_blank">bg_js_flappybird</a> - first try,
 <br><br>
