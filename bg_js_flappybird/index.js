@@ -27,6 +27,10 @@ let gmTxt = "PLAYING";
 //JUMP in reset function
  window.addEventListener("keydown", resetGame);
 resetBtn.addEventListener("click", resetGame);
+window.addEventListener("dblclick", prevdefault);
+
+function prevdefault(){
+event.preventDefault();}
 
 function gameStart(){
 	running = true;
