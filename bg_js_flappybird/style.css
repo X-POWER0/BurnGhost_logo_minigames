@@ -61,6 +61,7 @@ background-size: 18vw 50vh;
   
 }
 #gameContainer{
+	user-select: noselect;
 	text-align: center;
 //padding-bottom: 20vh;
 //    padding-top: 5vh;
@@ -70,6 +71,11 @@ background-size: 18vw 50vh;
     height: 90vh;
 overflow:hidden;
 
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
   touch-action: manipulation;
     background-image: url(bk.png);
 background-size: 50vw 80vh;
@@ -123,9 +129,16 @@ background-size: 30vw 30vh;
     //bottom: 20%;
     //top: 20%;
     //color: black;
+	
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
 }
 }
 #scoreText{
+	user-select: noselect;
     font-family: 'Lucida', monospace;
     font-size: 10vh;
     color: white;
@@ -144,6 +157,7 @@ position: absolute;
         user-select: none;
 }
 #gameText{
+	user-select: noselect;
     font-family: 'Lucida', monospace;
     font-size: 70px;
     color: #ffeb00;
@@ -160,7 +174,7 @@ position: absolute;
         user-select: none;
 }
 #resetBtn{
-
+user-select: noselect;
   touch-action: manipulation;
     font-family: 'Lucida', monospace;
     font-size: 42px;
