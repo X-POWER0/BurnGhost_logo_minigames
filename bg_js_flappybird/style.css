@@ -14,6 +14,19 @@ background-size: 15vw 100vh;
    position:relative;
    left:60vw;
  //  animation: block 2s infinite linear;
+	
+user-select: noselect;
+  touch-action: manipulation;
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+	
+-khtml-user-select:none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+
    }
 .blockanim{
    width:15vw;
@@ -23,6 +36,19 @@ background-size: 15vw 100vh;
   // background-color:red;
    position:relative;
    left:60vw;
+	
+user-select: noselect;
+  touch-action: manipulation;
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+	
+-khtml-user-select:none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+
    animation: block 2s infinite linear;
    }
 
@@ -35,6 +61,19 @@ background-size: 7vw 20vh;
     position:relative;
     top:-90vh;
     //border-radius:50%;
+	
+user-select: noselect;
+  touch-action: manipulation;
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+	
+-khtml-user-select:none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+
 }
 .hole{
        width:18vw;
@@ -46,6 +85,19 @@ background-size: 18vw 50vh;
    position:relative;
    left:60vw;
    //animation: block 2s infinite linear;
+	
+user-select: noselect;
+  touch-action: manipulation;
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+	
+-khtml-user-select:none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+
   
 }
 .holeanim{
@@ -57,6 +109,19 @@ background-size: 18vw 50vh;
    //background-color:black;
    position:relative;
    left:60vw;
+	
+user-select: noselect;
+  touch-action: manipulation;
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+	
+-khtml-user-select:none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+
    animation: block 2s infinite linear;
   
 }
@@ -95,6 +160,19 @@ width: 110vw;
    // overflow:hidden;
     background-image: url(water.png);
 background-size: 30vw 30vh;
+	
+user-select: noselect;
+  touch-action: manipulation;
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+	
+-khtml-user-select:none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+
 }
 .Land{
 	text-align: center;
@@ -107,6 +185,19 @@ width: 140vw;
    // overflow:hidden;
     background-image: url(water.png);
 background-size: 30vw 30vh;
+	
+user-select: noselect;
+  touch-action: manipulation;
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+	
+-khtml-user-select:none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+
 }
 
 .LandAnim{
@@ -121,6 +212,19 @@ width: 140vw;
    // overflow:hidden;
     background-image: url(water.png);
 background-size: 30vw 30vh;
+	
+user-select: noselect;
+  touch-action: manipulation;
+-webkit-user-select: none;
+        -webkit-touch-callout: none;
+        -moz-user-select: none;
+        -ms-user-select: none;
+        user-select: none;
+	
+-khtml-user-select:none;
+-webkit-tap-highlight-color:rgba(0,0,0,0);
+	-webkit-tap-highlight-color: transparent;
+
    animation: land_anim 2s infinite linear;
 }
 
@@ -204,6 +308,7 @@ user-select: noselect;
     left: 50%;
     right: 50%;
     opacity: 70%;
+	
 -webkit-user-select: none;
         -webkit-touch-callout: none;
         -moz-user-select: none;
